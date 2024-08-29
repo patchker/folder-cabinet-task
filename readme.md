@@ -28,10 +28,10 @@ The main task was to create the `FolderCabinet` class with the following feature
 
 The project is organized into different packages:
 
-- **`com.example.cabinet`**: Contains the main class of the application.
-- **`com.example.cabinet.interfaces`**: Contains the interfaces like `Cabinet`, `Folder`, and `MultiFolder`.
-- **`com.example.cabinet.impl`**: Contains the implementations of folders, like `MultiFolderImpl` and `SimpleFolder`.
-- **`com.example.cabinet.cabinets`**: Contains the `FileCabinet` and `FolderCabinet` classes.
+- **`com.task`**: Contains the main class of the application.
+- **`com.task.interfaces`**: Contains the interfaces like `Cabinet`, `Folder`, and `MultiFolder`.
+- **`com.task.impl`**: Contains the implementations of folders, like `MultiFolderImpl` and `FolderImpl`.
+- **`com.task.cabinets`**: Contains the `FileCabinet` and `FolderCabinet` classes.
 
 ## Classes
 
@@ -55,7 +55,7 @@ This is another implementation of the `Cabinet` interface that manages a list of
 
 ## How to Run the Project
 
-1. Clone the repository:
+1. Clone the repository
 2. Compile the Java files:
 ```
 javac -d out src/com/task/**/*.java
